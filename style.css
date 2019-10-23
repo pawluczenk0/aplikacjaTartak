@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	background-image: url("tlo.jpg");
+
+} 
+#tytul {
+	
+	color: white;
+	font-family: Impact;
+	font-size: 300%;
+	letter-spacing: 2px;
+	text-align: center;
+	background-color: #4ec607;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul {
+	
+	padding: 0;
+	margin:0 auto;
+	list-style: none;
+
+	
+}
+
+
+li a {
+	
+	display: block;
+	text-decoration: none;
+	color:black;
+	float: left;
+	text-align: center;
+	background-color:#ff8819;
+	font-size: 120%;
+	padding: 15px;
+	border: 1px solid;
+	border-color: #c65907;	
+	}
+li a:hover {
+	background-color: #FFFFCC;
+	color: black;
+}
+.active {
+	background-color: #FFFFCC;
+	}
+#stopka {
+	
+	position: fixed;	
+	bottom: 0;	
+	text-align: center;
+	background-color: #4ec607;
+	width: 100%;
+	font-size: 130%;
+	font-family: Arial;
+	color: white;
+	
+}
+#form {
+	position: absolute:center;
+	background-color: #ff8819;
+	font-size: 120%;
+	margin-top: 7%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 7%;
+	padding: 0px 50px 50px 50px;
+	border: 2px solid;
+	min-height: 300px;
+
+
+
+}
+input {
+	background-color: #FFFFCC;
+	width: 200px;
+	padding: 3px;	
+	width: 200px;
+	/* margin: 3px 5px; */
+	
+
+
+}
+h4 {
+	
+	font-size: 180%;
+	text-align: center;
+	color: white;
+	font-family:Verdana;
+	margin-top: 10px;
+
+}
+input:hover {
+	background-color: white;
+}
+a{
+	text-decoration: none;
+}
+#zarejestruj {
+	margin-top: 5%;
+	font-size:150%;
+	
+	color: black;
+	
+}
+#zarejestruj a:hover {
+	color: white;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+p {
+	text-align: right;
+	float: left; 
+	position: absolute;
+	right: 1%;
+	font-size: 40%;
+	top: 0%;	
+	padding: 4px;
+	margin: 0;
+	font-family: Arial;
+	letter-spacing: 0px;
+}
+.wyloguj {
+	
+	position: absolute;
+	right: 0;
+}
+select {
+	background-color: #FFFFCC;
+	width: 200px;
+	padding: 3px;	
+	width: 200px;
+	margin-top: 3px;
+}
+#button {
+	color: white;
+}
+td {
+	width: 150px;
+	padding: 5px;
+}
+
+.przycisk{
+	text-align: center;
+	font-size: 22px;
+	margin-top: 5px;
+	width: auto;
+	margin-right: auto;
+	border: solid 2px black;
+}
